@@ -2,6 +2,7 @@ package com.ict.day09;
 
 public class Ex01 {
 	public static void main(String[] args) {
+		
 		/* [클래스]
 		 * 1. 정의 : 객체(오브젝트)를 만들어서 사용할 모든 정보를 가지고 있는 파일
 		 *  - 보통 설계도, 거푸집으로 표현한다.
@@ -94,7 +95,19 @@ public class Ex01 {
 		 *         
 		 *         
 		 *         
-		 *       
+		 *         
+		 * 4. static과 instance: 멤버필드, 멤버메소드에 공통으로 해당되는 사항
+		 * 		1) instance(인스턴스): 객체 생성
+		 * 			- 인스턴스 필드, 인스턴스 메소드: 객체가 생성될 때 같이 생성되는 멤버필드와 멤버메소드를 말함
+		 * 			- 일반적인 멤버필드와 멤버메소드가 인스턴스 필드와 인스턴스 메소드에 속한다.
+		 * 		2) static
+		 * 			- static 필드, static 메소드: 객체 생성과 상관없이 미리 만들어지는 멤버필드와 멤버메소드
+		 * 			- static은 반드시 static 예약어를 사용함
+		 *       	- 사용법
+		 *       	클래스이름.변수(System.out) , 클래스이름.메소드(Math.random())
 		 *     */
 	}
+		public void add() {
+			Math.random()
+;		}
 }
