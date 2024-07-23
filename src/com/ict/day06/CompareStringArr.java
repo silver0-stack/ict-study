@@ -1,4 +1,4 @@
-package com.ict.dayo6;
+package com.ict.day06;
 
 import java.util.Arrays;
 

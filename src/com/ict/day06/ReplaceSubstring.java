@@ -1,4 +1,4 @@
-package com.ict.dayo6;
+package com.ict.day06;
 
 public class ReplaceSubstring {
 	public static void main(String[] args) {
